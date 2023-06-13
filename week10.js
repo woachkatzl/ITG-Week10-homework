@@ -6,7 +6,7 @@ let first = 8;
 
 function firstFunction() {
 	console.log(first);
-}
+} //Нажмите кнопку на странице
 
 //console.log(firstFunction());
 

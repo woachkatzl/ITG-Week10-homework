@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <section class="image-exrs">
+        <h2>Moon Moon</h2>
+        <img id="image" src="assets/moon-moon1.jpg" alt="Moon Moon being Moon Moon">
+        <div>
+            <button onclick="prevImage()">Previous</button>
+            <button onclick="nextImage()">Next</button>
+        </div>
+    </section>
+    <section class="price-exrs">
+        <button class="price-btn" onclick="calculateTotalPrice()">Узнать стоимость</button>
+    </section>
+    <section class="price-exrs">
+        <button class="price-btn" onclick="calculateTotalPriceOnPage()">Узнать стоимость</button>
+        <h3 id="total-price"></h3>
+    </section>
+
+    <script src="exercises.js"></script>
+</body>
+</html>
