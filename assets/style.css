@@ -146,3 +146,7 @@ button {
 .price-btn {
     width: 200px;
 }
+
+button:hover {
+    background-color: #4a4a4a;
+}
